@@ -8,10 +8,20 @@ This demo illustrates techniques for calling remote procedures in a client serve
 Development - [Version 0.1]()
 
 ## Installation
-`protoc -I aexp aexp/aexp.proto --go_out=plugins=grpc:aexp`
+```
+go get https://github.com/saadshams/grpc-demo-aexp
+cd $GOPATH/src/github.com/saadshams/grpc-demo-aexp
+protoc -I aexp aexp/aexp.proto --go_out=plugins=grpc:aexp
+
+go build server/main.go
+go build client/main.go
+go run server/main.go
+go run client/main.go
+```
 
 ## Platforms / Technologies
 * [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+* [gRPC](https://en.wikipedia.org/wiki/GRPC)
 * [Mongodb](https://en.wikipedia.org/wiki/MongoDB)
 
 ## License
