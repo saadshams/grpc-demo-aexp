@@ -1,0 +1,26 @@
+//
+//  proto.go
+//  gRPC Go Demo
+//
+//  Copyright(c) 2019 Saad Shams <saad.shams@puremvc.org>
+//  Your reuse is governed by the Creative Commons Attribution 3.0 License
+//
+
+syntax = "proto3";
+
+package aexp;
+
+// service for Hello AEXP
+service AEXP {
+  rpc SendRequest (Request) returns (Response) {}
+}
+
+// request Hello
+message Request {
+  string name = 1;
+}
+
+// response Hello AEXP
+message Response {
+  string message = 1;
+}
