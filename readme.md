@@ -2,7 +2,7 @@
 This demo illustrates techniques for calling remote procedures in a client server application.
 
 ## Screenshot
-![PureMVC Java Demo: Employee Admin Microservice](https://raw.githubusercontent.com/PureMVC/puremvc-java-demo-microservice-employeeadmin/master/assets/screenshot.png)
+![PureMVC Java Demo: Employee Admin Microservice](https://raw.githubusercontent.com/saadshams/grpc-demo-aexp/master/assets/screenshot.png)
 
 ## Status
 Development - [Version 0.1]()
